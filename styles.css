@@ -96,6 +96,12 @@ h4 {
     margin-bottom: 10px;
 }
 
+.training-links li{
+    font-family: 'Goldman', cursive;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
 p {
     font-family: 'Poppins', sans-serif;
     font-size: 25px;
@@ -103,11 +109,7 @@ p {
     max-width: 840px;
 }
 
-h4 ul {
-    display: inline-block;
-}
-
-.copyright {
+#copyright {
     font-size: 12px;
     background: rgba(255, 255, 255, 0.6);
 }
