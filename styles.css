@@ -21,6 +21,17 @@ a {
     padding: 30px 10%;
 }
 
+.docwrite {
+    font-size: 20px;    
+    background-color: #f44336;
+    color:rgb(0, 0, 0);
+    font-family: 'Goldman', cursive;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
 .navigation a {
     transition: all 0.3s ease 0s;
 }
@@ -50,6 +61,7 @@ body {
     background-attachment: fixed;
     height: 100vh;
 }
+
 
 main {
     display: inline;
