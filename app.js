@@ -1,27 +1,27 @@
-//let yellow ="Yellow";
-//let otherYellow ="yellow";
-
-//let favColor = yellow;
-
-//console.log(yellow);
-//console.log(otherYellow);
-
-//console.log(yellow == otherYellow);
-
-let usersChoice = prompt("do you like cardio?");
-//console.log(usersColor);
-
-// if users fav color is yellow say mine too
-//otherwise say thats a good color
-
-//if (usersColor.toLowerCase() == "yes"){
-    // console.log("perfect, let's train");
-//} else{
-    //console.log("take a look around and see if this is for you");
-//}
-
-if (usersChoice.toLowerCase() == "yes"){
-    document.write("perfect, let's train");
-} else{
-    document.write("not a fan of cardio? that's alright, maybe check out strength");
+function likeCardio(){
+    let usersChoice = prompt("do you like cardio?");
+    
+    if (usersChoice.toLowerCase() == "yes"){
+        document.write("so you like cardio? perfect, let's train");
+    } else{
+        document.write("not a fan of cardio? that's alright, feel free to look around and maybe check out strength");
+    }
 }
+
+
+/* //function askTime(){
+    let time = prompt('What time is it');
+    let message;
+
+    if(time <=11){
+        message = 'good morning';
+    } else if(time <= 18){
+        message = 'good afternoon';
+    } else if(time <=24){
+        message = 'good evening';
+    } else {
+        message = 'time does not exist';
+    }
+    return message;
+// }
+ */

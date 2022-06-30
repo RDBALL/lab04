@@ -21,6 +21,12 @@ a {
     padding: 30px 10%;
 }
 
+.center {
+    margin:auto;
+    width: 50%;
+    padding: 10px;
+}
+
 .docwrite {
     font-size: 20px;    
     background-color: #f44336;
@@ -76,11 +82,19 @@ h1 {
     text-align: center;
 }
 
+.mainPic {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
 h2 {
     font-family: 'Goldman', cursive;
     color: white;
-    font-size: 60px;
-    width: 640px;
+    font-size: 4vw;
+    width: 100%;
+    margin: auto;
+    text-align: center;
     background: rgb(39, 39, 39, .8);
     padding: 10px 10px;
     margin-bottom: 10px;
@@ -89,39 +103,55 @@ h2 {
 h3 {
     font-family: 'Goldman', cursive;
     color: white;
-    font-size: 40px;
-    width: 640px;
+    font-size: 3vw;
+    width: 100%;
+    margin: auto;
+    text-align: center;
     background: rgb(39, 39, 39, .8);
     padding: 10px 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+
 }
 
 h4 {
     font-family: 'Goldman', cursive;
     color: white;
-    font-size: 30px;
-    width: 640px;
+    font-size: 2vw;
+    width: 100%;
+    margin: auto;
+    text-align: center;
     background: rgb(39, 39, 39, .8);
     padding: 10px 10px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
+.trainingType {
+    list-style: none;
+}
+
 .training-links li{
     font-family: 'Goldman', cursive;
     display: inline-block;
+    width: 100%;
+    margin: auto;
+    text-align: center;
     margin-bottom: 10px;
 }
 
 p {
     font-family: 'Poppins', sans-serif;
-    font-size: 25px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.5vw;
     background: rgba(255, 255, 255, 0.6);
     max-width: 840px;
 }
 
 #copyright {
     font-size: 12px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
     background: rgba(255, 255, 255, 0.6);
 }
