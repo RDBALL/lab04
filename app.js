@@ -1,4 +1,4 @@
-function likeCardio(){
+/* function likeCardio(){
     let usersChoice = prompt("do you like cardio?");
     
     if (usersChoice.toLowerCase() == "yes"){
@@ -6,6 +6,18 @@ function likeCardio(){
     } else{
         document.write("not a fan of cardio? that's alright, feel free to look around and maybe check out strength");
     }
+}
+ */
+function likeCardio(){
+    let usersChoice = prompt("do you like cardio?");
+
+    while (usersChoice !== "yes"){
+        alert("that's not very heart healthy, you should reconsider your last answer");
+        usersChoice = prompt("do you like cardio?")
+        if (usersChoice.toLowerCase() == "yes"){
+            document.write("so you like cardio? perfect, let's train");
+    }
+}
 }
 
 function changePic(){
