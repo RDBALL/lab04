@@ -10,6 +10,19 @@ a {
     color: inherit;
 }
 
+.heart {
+    width: 40%;
+    margin: 5px 5px;
+}
+
+.heartPicCenter {
+
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
 .navigation {
     font-family: 'Goldman', cursive;
     font-size: 30px;

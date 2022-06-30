@@ -20,6 +20,16 @@ function likeCardio(){
 }
 }
 
+function numberOfHearts(){
+    let output = '';
+    let rating = prompt('from 1-5 how healthy is your heart?');
+    for(let i = 0; i < rating; i++){
+        output += "<img class='heart' src='assets/images/strongHeart.png'/>";
+
+    }
+    return document.write(output);
+}
+
 function changePic(){
     let img = document.querySelector('img');
     let btn1 = document.querySelector('#btn1');
