@@ -46,22 +46,3 @@ function changePic(){
     img.src ='assets/images/runPicture.jpg';
 })
 }
-
-
-
-/* //function askTime(){
-    let time = prompt('What time is it');
-    let message;
-
-    if(time <=11){
-        message = 'good morning';
-    } else if(time <= 18){
-        message = 'good afternoon';
-    } else if(time <=24){
-        message = 'good evening';
-    } else {
-        message = 'time does not exist';
-    }
-    return message;
-}
- */

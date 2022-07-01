@@ -57,11 +57,13 @@ button {
 }
 
 button:hover {
-    color: rgb(39, 39, 39)
+    color: rgb(39, 39, 39);
+    cursor: pointer;
+    
 }
 
 .navigation a {
-    transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0.1s;
 }
 
 .navigation a:hover {
@@ -70,6 +72,8 @@ button:hover {
 
 a:link, a:active {
     background-color: #f44336;
+    border-radius: 20px;
+    border: black solid;
     color: white;
     padding: 10px 10px;
     text-align: center;
@@ -78,7 +82,7 @@ a:link, a:active {
 }
   
 a:hover, a:active {
-    background-color: red;
+    background-color: #f44336;
     opacity: 0.8;
 }
 
@@ -123,6 +127,8 @@ h1 {
     margin: auto;
     text-align: center;
     border-radius: 15px;
+    border: 2px solid;
+    box-shadow: 7px 7px 7px #8a8989 inset;
 }
 
 h2 {
@@ -142,7 +148,8 @@ h3 {
     color: white;
     font-size: 3vw;
     width: 100%;
-    margin: auto;
+    margin-top: 10px;
+
     text-align: center;
     background: rgb(39, 39, 39, .8);
     padding: 10px 10px;
