@@ -37,13 +37,13 @@ function changePic(){
     let btn3 = document.querySelector('#btn3');
 
     btn1.addEventListener('click', () =>{
-    img.src ='assets/images/swimPicture.png';
+    img.src ='assets/images/swimPicture.jpg';
 })
     btn2.addEventListener('click', () =>{
-    img.src ='assets/images/bikePicture.png';
+    img.src ='assets/images/bikePicture.jpg';
 })
     btn3.addEventListener('click', () =>{
-    img.src ='assets/images/runPicture.png';
+    img.src ='assets/images/runPicture.jpg';
 })
 }
 
